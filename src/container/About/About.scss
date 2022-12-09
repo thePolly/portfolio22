@@ -1,0 +1,158 @@
+.app__about {
+    color: var(--black);
+}  
+  
+  
+  .app__about-section {
+    height: 100vh;
+    margin-top: 3rem;  
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    
+    }    
+}
+
+.app__about-description {
+    font-size:1.2em;
+}
+
+.app__about-read-more {
+    margin-top: 1em;
+    a {
+        text-decoration: none;
+        color: var(--black);
+        font-weight: 600;
+
+        &:hover {
+            color:black;
+        }
+    }
+    .app__about-read-more-logo{
+        position: relative;
+
+        height: 0.7em;
+        width: 0.7em;
+    }
+
+}
+
+
+.app__about-name {
+   color: var(--secondary-color);
+   font-weight: 500;
+   
+}
+
+ .app__about-photo{
+    width: 15vw;
+
+    position: relative;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+   padding: 2rem;
+
+    .me{
+        position:absolute;
+        top: 30%;
+
+        width: 300px;
+        height: 300px;
+  
+        object-fit:contain;
+
+        z-index: 5;
+    }
+    .bg{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit:fill;
+
+        filter: blur('0'px);
+        z-index: 4;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        justify-content:center;
+        align-items:center;
+
+    }
+
+    @media screen and (min-width: 2000px) {
+        img {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        }
+    }
+
+} 
+
+
+.app__about-text {
+    span {
+        font-size: 2.8rem; 
+}
+
+
+}
+
+.text-position {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    color: rgba(53, 53, 53, 0.5);
+}
+
+.app__about-short-desc{
+    padding-top: 4rem;
+
+    color: var(--black);
+    width: 100%;
+}
+
+.home__social {
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+
+    width: 1vw;
+
+    
+
+    .home__social-icon {
+        font-size: 1.25rem;
+        color: var(--black);
+        transition: all 0.15s ease-in-out;
+
+        &:hover {
+            color: black;
+            font-size: 1.35rem;
+        }
+    }
+    .github{
+        font-size: 1.4rem;
+        &:hover {
+            font-size: 1.5rem;
+        }
+    }
+
+}
+

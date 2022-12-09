@@ -1,0 +1,78 @@
+.app__navbar {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(247, 247, 247, 0.8);
+    backdrop-filter: blur(6px);
+    padding: 1.5rem 4rem;
+    -webkit-backdrop-filter: blur(6px);
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    box-shadow: rgba(156, 156, 156, 0) 0px 0px 3px;
+}
+
+.logo {
+    z-index: 51;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    color: var(--black);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+        &:hover {
+            color: black;
+            font-size: 2.05em;
+        }
+      
+}
+
+.app__navbar-links {
+
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    justify-content:  flex-end;
+    align-items:  center;
+    
+
+
+    list-style: none;
+
+    li{
+        margin: 0 1rem;
+        cursor: pointer;
+        flex-direction: column;
+ 
+
+        a{
+            color: var(--black);
+            font-size: 0.9em;
+            text-decoration: none;
+            text-transform: uppercase;
+            flex-direction: column;
+
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: black;
+                font-size: 0.95em;
+            }
+
+        
+           
+        
+        }
+   
+   
+    
+           
+      
+   
+    }
+    @media screen and (max-width: 450px){
+        display: none;
+        
+        }
+    }
