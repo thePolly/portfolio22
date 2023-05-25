@@ -53,7 +53,7 @@ const Contact = () => {
     onSubmit: (values,  {resetForm  }) => {
 
 
-  //  emailjs.sendForm('service_zvhzg5l', 'template_f61bh5p', form.current, 'SQdX_hHOwmaT3hl6q')
+    emailjs.sendForm('service_zvhzg5l', 'template_f61bh5p', form.current, 'SQdX_hHOwmaT3hl6q')
     promise
       .then((result ) => {
         resetForm({});
