@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.scss';
 
+
 const Navbar = (props) => {
   return (
   <>
@@ -8,7 +9,7 @@ const Navbar = (props) => {
     
 
     <ul className='app__navbar-links'>
-            {[ 'about', 'work', 'skills', 'contact']. map((item)=>
+            {[ 'about',  'skills', 'projects', 'experience', 'contact']. map((item)=>
             <li key={`link-${item}`}  >
                 
                 <a href={`#${item}`} > {item} </a>

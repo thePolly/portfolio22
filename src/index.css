@@ -4,12 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 
 :root {
 
   --font: "Mochiy Pop One", sans-serif;
   --font2: "DM Sans", sans-serif;
   --font-base: "Poppins", sans-serif;
+  --font3: "Comfortaa";
   --primary-color: #EDF2F4;
   --secondary-color: #401783;
   --secondary-color-light: #cbc0dd;

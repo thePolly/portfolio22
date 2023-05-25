@@ -1,27 +1,26 @@
 .aboutme {
-  padding-top: 10rem;
+  padding-top: 30rem;
   padding-bottom: 10rem;
 }
 
 .aboutme-section {
 
+
     background-color: var(--secondary-color-light);
-    justify-content: center;
-    display: flex;
+
+
     padding: 1.5rem 3rem;
     border-radius: 20px;
   
-    flex-direction: column;
+   
       margin: auto;
-      max-width: 900px;
+      max-width: 800px;
+      min-width: 200px;
       
   
       p{
-  
           padding: 1rem;
-         
-
-      }
+              }
   
   
 .quote {

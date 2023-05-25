@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    height: 75vh;
     padding-top: 10rem;
   
   }
@@ -12,7 +12,7 @@
   
   
     h2{
-      margin-bottom: 1.5rem;
+  
       margin-left: 13rem;
       color: var(--secondary-color);
     }
@@ -36,6 +36,7 @@
   }
   
   .skills__title{
+
     display: flex;
     padding-top: 3rem;
     padding-right: 3rem;
@@ -44,9 +45,15 @@
   }
   
   
+  .skill-column {
+      margin: 3rem;
+  }
+
+
   .app__skills_section {
     margin-top: 5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   
     color: var(--black);
@@ -57,7 +64,7 @@
   
   .skills__list {
   
-   
+    cursor:default;
       list-style-type: none;
       padding-top: 1rem;
     align-items: center;
@@ -71,11 +78,12 @@
 
 
   .skill-title {
+    font-family: 'Comfortaa'; 
     display: flex;
     align-items: center;
     gap: 1rem;
 
-    cursor: pointer;
+    cursor:default;
 transition: 0.5s;
 
     &:hover {

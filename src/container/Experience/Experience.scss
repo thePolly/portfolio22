@@ -1,0 +1,64 @@
+.app__experience {
+    padding-top: 10rem;
+}
+
+
+
+.experience_container {
+    margin: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:  wrap ;
+
+    h4 {
+        
+        font-family:'Comfortaa';
+        font-size: large;
+   
+
+    }
+   
+}
+
+
+.company-name {
+  margin-top: 1rem;
+  font-family: 'Comfortaa';
+  color: #7c7c7c;
+  font-size: 15px;
+}
+
+.verticalLine {
+    border-left: thin solid #858585;
+    margin-left: 5%;
+    padding: 2em;
+  }
+
+
+  .experience {
+    margin-top: 2em;
+    width: 500px;
+
+  }
+  .education {
+    margin-top: 2em;
+    width: 500px;
+  }
+
+  .info_particale{
+
+    margin-left: 2em;
+  }
+
+  .circle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: calc(0% - 70px);
+  }

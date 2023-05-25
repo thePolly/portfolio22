@@ -24,7 +24,7 @@ const sclaeVariants ={
 
 const About = () => {
   return (
-    <div  className='app__about'>
+    <div  id="about" className='app__about'>
 
 <motion.div
 className='app__about-section'

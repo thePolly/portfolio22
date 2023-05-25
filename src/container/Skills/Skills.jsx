@@ -5,6 +5,12 @@ import { default as SkillBars } from '../../components';
 import SkillOverview from './SkillOverview';
 
 
+
+import ReactVivus from 'react-vivus';
+
+import svg from './test1.svg';
+
+
 import {IoCodeSlashSharp,
   IoGameController,
   IoDesktopOutline,
@@ -16,7 +22,7 @@ import {IoCodeSlashSharp,
 
 const backendSkills=  {
   name: "Backend",
-  list: ["Java", "Python", "Groovy"],
+  list: ["Java", "Python", "Groovy", "Jenkins"],
  icon: {IoCodeSlashSharp}
 }
 const frontendSkills=  {
@@ -26,7 +32,7 @@ const frontendSkills=  {
 }
 const graphicSkills=  {
   name: "Graphic Design",
-  list: ["Photoshop", "Figma", "Lightroom", "Procreate"]
+  list: ["Photoshop", "Figma", "Lightroom", "Procreate", "Adobe Illustrator"]
 }
   
  
@@ -66,6 +72,7 @@ const skillsFrontendData= [
 ]
 
 
+
 const Skills = () => {
   return (
     <motion.div id="skills" className='skills'
@@ -74,18 +81,20 @@ const Skills = () => {
     transition={{duration:1.1}}
     viewport={{once: true, amount: 0.3}}
     >
-      <h1 className='skills__title'>Some of my skills</h1>
+      <h1 className='skills__title'>Skills</h1>
       <div className='app__skills_section'>
 
-<div>
+
+
+<div className='skill-column'>
 <h2 className='skill-title'><IoGameController/> Backend</h2>
 <SkillOverview skills = {backendSkills}/>
 </div>
-<div>
+<div className='skill-column'>
 <h2 className='skill-title'><IoDesktopOutline/> Frontend</h2>
 <SkillOverview skills = {frontendSkills}/>
 </div>
-<div>
+<div className='skill-column'>
 <div className='skill-title'> <div><IoColorPalette className='title-icon'></IoColorPalette></div><h2> Graphic Design</h2></div>
 <SkillOverview skills = {graphicSkills}/>
 </div>

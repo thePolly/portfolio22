@@ -5,7 +5,7 @@
   
   .app__about-section {
     height: 100vh;
-    margin-top: 3rem;  
+    
     flex: 1;
     width: 100%;
     display: flex;
@@ -29,6 +29,7 @@
     margin-top: 1em;
     a {
         text-decoration: none;
+        font-size: 20px;
         color: var(--black);
         font-weight: 600;
 
@@ -129,7 +130,9 @@
     align-content:center;
     align-items: center;
     justify-content: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+
     grid-template-columns: max-content;
     row-gap: 1rem;
 
@@ -140,11 +143,11 @@
     .home__social-icon {
         font-size: 1.25rem;
         color: var(--black);
-        transition: all 0.15s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover {
             color: black;
-            font-size: 1.35rem;
+            font-size: 1.3rem;
         }
     }
     .github{
@@ -154,5 +157,17 @@
         }
     }
 
+
 }
+
+.icon-container{
+    height: 2rem;
+    width: 2rem;
+
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 

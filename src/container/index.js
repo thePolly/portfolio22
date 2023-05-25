@@ -1,13 +1,16 @@
 import About from './About/About';
 import Header from './Header/Header';
 import Skills from './Skills/Skills';
-import Work from './Work/Work';
+import Projects from './Projects/Work';
 import AboutMe from './AboutMe/AboutMe';
+import Expreience from './Experience/Experience';
+
 
 export {
   About,
   Header,
   Skills,
-  Work,
-  AboutMe
+  Projects,
+  AboutMe,
+  Expreience
 };

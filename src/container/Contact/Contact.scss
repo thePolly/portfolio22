@@ -23,6 +23,7 @@
 
 
 
+
   }
 
   .contact-label {
@@ -30,10 +31,12 @@
     color: var(--black);
     margin-top: 10rem;
     margin-left: 0.5rem;
+    font-family: 'Comfortaa'; 
   
   }
 
   .contact-form-field {
+    font-family: 'Comfortaa'; 
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -62,9 +65,11 @@ margin-top: 0.5rem;
 
   .contact-form-btn {
 
+
     position: absolute;
     margin-top: 3rem;
     margin-right: 0;
+    font-family: var(--font-base); 
  
     
 
@@ -86,7 +91,7 @@ margin-top: 0.5rem;
   }
 
   .contact-error {
-
+    font-family: 'Comfortaa'; 
     color: red;
     font-size: small;
 
@@ -103,9 +108,11 @@ float: right;
   }
 
   .swal-button {
+
     padding: 7px 19px;
     border-radius: 7px;
     background-color: var(--black);
+
     font-size: 12px;
     font-weight: 500;
 
@@ -122,6 +129,6 @@ float: right;
   .swal-title {
     margin: 0px;
     font-size: 16px;
- 
+
     margin-bottom: 28px;
   }
