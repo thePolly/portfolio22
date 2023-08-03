@@ -1,3 +1,15 @@
+.projects { 
+  height: 85vh;
+  padding-top: 15rem;
+
+  @media screen and (max-width: 800px) {
+    height: 150vh;
+    
+} 
+}
+
+
+
 
 .projects__title{
     display: flex;
@@ -67,10 +79,6 @@ text-align: center;
 
   }
 
-  .projects { 
-    height: 75vh;
-    padding-top: 10rem;
-  }
 
 .project-links-container {
 visibility: hidden;

@@ -3,10 +3,10 @@ import {motion} from 'framer-motion';
 import Social from "./Social.jsx"
 import './About.scss'
 import { images } from '../../constants';
-
-
+import { LiaDownloadSolid } from "react-icons/lia";
+import CV from  '../../assets/resources/cv.pdf';
 import {FaMousePointer,FaMouse} from 'react-icons/fa'
-
+import ReactFloaterJs from 'react-floaterjs'
 
 
 const sclaeVariants ={
@@ -26,11 +26,13 @@ const About = () => {
   return (
     <div  id="about" className='app__about'>
 
+
+
 <motion.div
 className='app__about-section'
 viewport={{once: true}}
 >
-
+ 
    <Social/>
   <div className='app__about-description'>
   <motion.div
@@ -74,7 +76,7 @@ transition={{duration:1 , ease: 'easeOut'}}
 viewport={{once: true}}
 className="app__about-short-desc">
   I write Java code, Draw digital Illustrations
-  <br/> and develop Websites from scratch.
+  <br/> and develop minimalistic looking Websites.
   <br/> 
   <p className="app__about-read-more">Read more in 
   <a href='#skills'> Skills <FaMouse className='app__about-read-more-logo'></FaMouse></a>
@@ -94,8 +96,23 @@ viewport={{once: true}}
   <motion.div layout />
   <img className='bg' src={images.me_bg2} alt="picture2"></img>
  
+  <dev className="download-section">
+<a
+href={CV}
+download="Polina Katkova CV"
+target="_blank"
+rel="noopener noreferrer"
+>
+<ReactFloaterJs>
+<dev className="download-link">
+<LiaDownloadSolid/> Download my CV
+</dev>
+</ReactFloaterJs>
+</a>
+</dev>
+  
   </motion.div>
-
+ 
   </motion.div>
 
     </div>

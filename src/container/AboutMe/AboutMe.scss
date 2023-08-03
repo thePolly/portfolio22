@@ -1,9 +1,38 @@
-.aboutme {
-  padding-top: 30rem;
-  padding-bottom: 10rem;
+.story-section {
+height: 90vh;
+padding-top: 10%;
+
 }
 
-.aboutme-section {
+.story-section-main{
+padding: 6rem;
+display: flex;
+flex-direction: row;
+align-items: start;
+justify-content:space-evenly;
+
+
+@media screen and (max-width: 800px) {
+    flex-direction: column;
+}    
+}
+
+
+.story{
+
+letter-spacing: 1px;
+line-height: 2;
+width: 40%;
+font-size: large;
+@media screen and (max-width: 800px) {
+    width: 100%;
+    padding: 2rem;
+    font-size:small;
+}         
+}
+
+
+.aboutme-section{
 
 
     background-color: var(--secondary-color-light);
@@ -23,23 +52,19 @@
               }
   
   
-.quote {
-    font-style: italic;
-    font-size: 1rem;
 }
 
-      .aboutme-author{
-          align-self: flex-end;
-          justify-self: flex-end;
-          
-        
+
+
+    h2 {
+        text-align: center;
+        color: var(--black);
+        margin-bottom: 5rem;
+  
       }
 
-transition: 1s;
-      &:hover {
-        
-      }
-  }
+
+
   
 
 

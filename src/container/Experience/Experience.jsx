@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Experience.scss'
-
+import {motion} from 'framer-motion';
 import { useSpring, animated } from '@react-spring/web'
 
 const Experience = () => {
@@ -10,6 +10,13 @@ const Experience = () => {
 
 
     return(
+<motion.div
+initial={{opacity: 0}}
+whileInView={{opacity:1}}
+transition={{duration:1.5}}
+viewport={{once: true, amount: 0.3}}
+>
+
 <div id="experience" className='app__experience'>
 <h1 className='skills__title'>Education & Experience</h1>
 <div className='experience_container'>
@@ -59,6 +66,16 @@ const Experience = () => {
       <p>Software Engineer</p>
       <p></p>
   </div>
+  <div className='info_particale'>
+  <div className="circle">
+
+</div>
+      <h4>2022-present</h4>
+      <p className='company-name'></p>
+      <p>Self Developement</p>
+      <p></p>
+  </div>
+  
   </div>
   <div className='verticalLine'>
 
@@ -67,6 +84,7 @@ const Experience = () => {
 </div>
 
   </div>
+  </motion.div>
     )
 }
 

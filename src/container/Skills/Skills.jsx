@@ -6,6 +6,13 @@ import SkillOverview from './SkillOverview';
 
 
 
+
+
+
+
+import { saveAs } from 'file-saver';
+
+
 import ReactVivus from 'react-vivus';
 
 import svg from './test1.svg';
@@ -72,7 +79,6 @@ const skillsFrontendData= [
 ]
 
 
-
 const Skills = () => {
   return (
     <motion.div id="skills" className='skills'
@@ -82,6 +88,11 @@ const Skills = () => {
     viewport={{once: true, amount: 0.3}}
     >
       <h1 className='skills__title'>Skills</h1>
+    
+
+ 
+
+
       <div className='app__skills_section'>
 
 
