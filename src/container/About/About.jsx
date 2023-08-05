@@ -6,7 +6,7 @@ import { images } from '../../constants';
 import { LiaDownloadSolid } from "react-icons/lia";
 import CV from  '../../assets/resources/cv.pdf';
 import {FaMousePointer,FaMouse} from 'react-icons/fa'
-import ReactFloaterJs from 'react-floaterjs'
+
 
 
 const sclaeVariants ={
@@ -103,11 +103,11 @@ download="Polina Katkova CV"
 target="_blank"
 rel="noopener noreferrer"
 >
-<ReactFloaterJs>
+
 <dev className="download-link">
 <LiaDownloadSolid/> Download my CV
 </dev>
-</ReactFloaterJs>
+
 </a>
 </dev>
   
