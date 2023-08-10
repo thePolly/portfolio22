@@ -29,7 +29,7 @@ viewport={{once: true, amount: 0.3}}
 <p className='story'>Born into the family of a informatics teacher, I learned to program geometric figures in Pascal at the age of 9. 
   Since I was a kid, I wanted to develop my own computer game.
    So I finished a 3D Modelling cources and got a Master Degree In Computer Science. 
-   My wish to create a game transformed into the wish to create user-friendly minimalistic-looking web sites. And it is what I am doing now.
+   Now I am a Software Engineer with an eager to make things convinient to use.
    </p>
    <img  src={images.measkid}></img>
 </div>

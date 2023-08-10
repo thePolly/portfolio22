@@ -27,7 +27,7 @@ const backendSkills=  {
 }
 const frontendSkills=  {
   name: "Frontend",
-  list: ["React", "HTML/CSS", "JavaScript"],
+  list: ["React", "HTML/CSS", "JavaScript", "TypeScript"],
   icon: {IoGameController}
 }
 const graphicSkills=  {
