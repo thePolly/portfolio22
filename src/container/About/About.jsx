@@ -3,8 +3,8 @@ import {motion} from 'framer-motion';
 import Social from "./Social.jsx"
 import './About.scss'
 import { images } from '../../constants';
-
-
+import { LiaDownloadSolid } from "react-icons/lia";
+import CV from  '../../assets/resources/cv.pdf';
 import {FaMousePointer,FaMouse} from 'react-icons/fa'
 
 
@@ -26,11 +26,13 @@ const About = () => {
   return (
     <div  id="about" className='app__about'>
 
+
+
 <motion.div
 className='app__about-section'
 viewport={{once: true}}
 >
-
+ 
    <Social/>
   <div className='app__about-description'>
   <motion.div
@@ -94,8 +96,23 @@ viewport={{once: true}}
   <motion.div layout />
   <img className='bg' src={images.me_bg2} alt="picture2"></img>
  
-  </motion.div>
+  <dev className="download-section">
+<a
+href={CV}
+download="Polina Katkova CV"
+target="_blank"
+rel="noopener noreferrer"
+>
 
+<dev className="download-link">
+<LiaDownloadSolid/> Download my CV
+</dev>
+
+</a>
+</dev>
+  
+  </motion.div>
+ 
   </motion.div>
 
     </div>
