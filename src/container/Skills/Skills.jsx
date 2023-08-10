@@ -95,7 +95,7 @@ const Skills = () => {
 <SkillOverview skills = {frontendSkills}/>
 </div>
 <div className='skill-column'>
-<div className='skill-title'> <div><IoColorPalette className='title-icon'></IoColorPalette></div><h2> Graphic Design</h2></div>
+<h2  className='skill-title'><IoColorPalette></IoColorPalette> Graphic Design</h2>
 <SkillOverview skills = {graphicSkills}/>
 </div>
 
