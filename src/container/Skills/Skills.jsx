@@ -22,17 +22,17 @@ import {IoCodeSlashSharp,
 
 const backendSkills=  {
   name: "Backend",
-  list: ["Java", "Python", "Groovy", "Jenkins"],
+  list: ["Java", "Python", "SQL", "Groovy", "JavaScript", "Jenkins", "Git"],
  icon: {IoCodeSlashSharp}
 }
 const frontendSkills=  {
   name: "Frontend",
-  list: ["React", "HTML/CSS", "JavaScript", "TypeScript"],
+  list: ["React", "Angular", "HTML/CSS"],
   icon: {IoGameController}
 }
 const graphicSkills=  {
   name: "Graphic Design",
-  list: ["Photoshop", "Figma", "Lightroom", "Procreate", "Adobe Illustrator"]
+  list: ["Photoshop", "Procreate", "Adobe Illustrator"]
 }
   
  
