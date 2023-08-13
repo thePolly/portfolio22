@@ -66,7 +66,7 @@ whileInView={ { opacity: [0, 1]}}
 transition={{duration:2}}
 viewport={{once: true}}
 >
-<p className= "text-position">Fullstack Developer</p>
+<p className= "text-position">Software Engineer</p>
 </motion.div>
 
 
