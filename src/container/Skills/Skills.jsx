@@ -22,7 +22,7 @@ import {IoCodeSlashSharp,
 
 const backendSkills=  {
   name: "Backend",
-  list: ["Java", "Python", "SQL", "Groovy", "JavaScript", "Jenkins", "Git"],
+  list: ["Java", "Python", "SQL", "Groovy", "JavaScript"],
  icon: {IoCodeSlashSharp}
 }
 const frontendSkills=  {
