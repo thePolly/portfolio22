@@ -22,23 +22,24 @@ const Experience = () => {
 </div>
       <h4>2015-2019</h4>
       <p className='company-name'>Samara University</p>
-      <p>Bacherlor of applied mathematics and computer science</p>
+      <p className='experience-title'>Bacherlor of applied mathematics and computer science</p>
       <p></p>
   </div>
+
   <div className='info_particale'>
   <div className="circle">
-
 </div>
       <h4>2019-2021</h4>
       <p className='company-name'>Samara University</p>
-      <p>Master of applied mathematics and computer science</p>
+      <p className='experience-title'>Master of applied mathematics and computer science</p>
       <p></p>
   </div>
   </div>
   <div className='verticalLine'>
+</div>
 
 </div>
-</div>
+
 <div className='experience'>
   <div className='verticalLine'>
   <div className='info_particale'>
@@ -47,7 +48,7 @@ const Experience = () => {
 </div>
       <h4>2018-2020</h4>
       <p className='company-name'>Netcracker Technology</p>
-      <p>Junior Software Engineer</p>
+      <p className='experience-title'>Junior Software Engineer</p>
       <p></p>
   </div>
   <div className='info_particale'>
@@ -56,13 +57,26 @@ const Experience = () => {
 </div>
       <h4>2020-2022</h4>
       <p className='company-name'>Netcracker Technology</p>
-      <p>Software Engineer</p>
+      <p className='experience-title'>Software Engineer</p>
       <p></p>
   </div>
-  </div>
-  <div className='verticalLine'>
+
+
+
+  <div className='info_particale'>
+  <div className="circle">
 
 </div>
+      <h4>2022-Present</h4>
+      <p className='company-name'>Self Developement</p>
+      <p className='experience-title'>Full Stack Software Engineer</p>
+      <p className='experience-description'>Practicing Vue, React, JS and Java</p>
+  </div>
+
+</div>
+
+
+
 </div>
 </div>
 

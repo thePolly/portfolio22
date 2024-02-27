@@ -6,6 +6,7 @@ import bg from '../assets/bg.jpg';
 import measkid from '../assets/measkid3.jpg';
 
 
+
 export default {
   me,
   me_bg2,
@@ -13,4 +14,5 @@ export default {
   me_only,
   bg,
   measkid
+
 }
