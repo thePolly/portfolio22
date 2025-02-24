@@ -18,6 +18,7 @@ function App() {
       <Expreience/>
       <AboutMe/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
