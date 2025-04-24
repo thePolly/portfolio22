@@ -76,7 +76,7 @@ transition={{duration:1 , ease: 'easeOut'}}
 viewport={{once: true}}
 className="app__about-short-desc">
   I write Java code, develop Websites
-  <br/> and draw digital Illustrations.
+  <br/> and draw digital Illustrations..
   <br/> 
   <p className="app__about-read-more">Read more in 
   <a href='#skills'> Skills <FaMouse className='app__about-read-more-logo'></FaMouse></a>
