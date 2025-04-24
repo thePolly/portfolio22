@@ -66,7 +66,7 @@ whileInView={ { opacity: [0, 1]}}
 transition={{duration:2}}
 viewport={{once: true}}
 >
-<p className= "text-position">Software Engineer</p>
+<p className= "text-position">Full-Stack Developer. Designer.</p>
 </motion.div>
 
 
@@ -75,8 +75,8 @@ whileInView={ { opacity: [0, 1]}}
 transition={{duration:1 , ease: 'easeOut'}}
 viewport={{once: true}}
 className="app__about-short-desc">
-  I write Java code, develop Websites
-  <br/> and draw digital Illustrations..
+  I enjoy designing and developing  
+  <br/> minimalistic and user-friendly web applications.
   <br/> 
   <p className="app__about-read-more">Read more in 
   <a href='#skills'> Skills <FaMouse className='app__about-read-more-logo'></FaMouse></a>
