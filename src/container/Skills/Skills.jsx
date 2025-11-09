@@ -1,77 +1,32 @@
-import React from 'react'
 import './Skills.scss'
 import { motion } from 'framer-motion';
-import { default as SkillBars } from '../../components';
 import SkillOverview from './SkillOverview';
-
-
-
-import ReactVivus from 'react-vivus';
-
-import svg from './test1.svg';
-
-
 import {IoCodeSlashSharp,
   IoGameController,
   IoDesktopOutline,
-  IoLaptopOutline,
-  IoEyedropOutline,
+  IoSettingsSharp,
   IoColorPalette,
-  IoColorPaletteOutline} from 'react-icons/io5'
+} from 'react-icons/io5'
 
 
 const backendSkills=  {
   name: "Backend",
-  list: ["Java", "Python", "SQL", "Groovy", "JavaScript"],
+  list: ["Java", "Spring Boot", "Python", "SQL", "Groovy"],
  icon: {IoCodeSlashSharp}
 }
 const frontendSkills=  {
   name: "Frontend",
-  list: ["React", "Vue", "JavaScript", "HTML/CSS"],
+  list: ["React", "JavaScript", "HTML/CSS"],
   icon: {IoGameController}
 }
 const graphicSkills=  {
   name: "Graphic Design",
-  list: ["Photoshop", "Procreate", "Adobe Illustrator"]
+  list: ["Procreate", "Adobe Illustrator"]
 }
-  
- 
-
-const skillsBackendData= [
-
-  {
-    name: 'Java',
-    level: 60,
-    color: 'gray',
-
-  },
-
-
-]
-
-const skillsFrontendData= [
-  {
-    name: 'JavaScript',
-    level: 40,
-    color: 'rgba(133, 114, 161, 1)',
-
-  },
-  {
-    name: 'ReactJS',
-    level: 50,
-    color: 'rgba(133, 114, 161, 1)',
-
-  },
-  {
-    name: 'HTML/SCSS',
-    level: 85,
-    color: 'rgba(133, 114, 161, 1)',
-
-  }
-
-]
-
-
+const infrastructureSkills=  {
+  name: "Tools & Infrastructure",
+  list: ["AWS", "CI/CD & Jenkins", "Git"]
+}
 
 const Skills = () => {
   return (
@@ -84,8 +39,6 @@ const Skills = () => {
       <h1 className='skills__title'>Skills</h1>
       <div className='app__skills_section'>
 
-
-
 <div className='skill-column'>
 <h2 className='skill-title'><IoGameController/> Backend</h2>
 <SkillOverview skills = {backendSkills}/>
@@ -95,17 +48,15 @@ const Skills = () => {
 <SkillOverview skills = {frontendSkills}/>
 </div>
 <div className='skill-column'>
-<h2  className='skill-title'><IoColorPalette></IoColorPalette> Graphic Design</h2>
-<SkillOverview skills = {graphicSkills}/>
+<h2 className='skill-title'><IoSettingsSharp/> Tools & Infrastructure</h2>
+<SkillOverview skills = {infrastructureSkills}/>
 </div>
-
-
-      </div>
-
-
-    </motion.div>
-
+<div className='skill-column'>
+<h2  className='skill-title'><IoColorPalette/> Graphic Design</h2>
+  <SkillOverview skills = {graphicSkills}/>
+  </div>
+  </div>
+</motion.div>
   )
 }
-
 export default Skills
