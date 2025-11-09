@@ -5,21 +5,7 @@ import './About.scss'
 import { images } from '../../constants';
 import { LiaDownloadSolid } from "react-icons/lia";
 import CV from  '../../assets/resources/cv.pdf';
-import {FaMousePointer,FaMouse} from 'react-icons/fa'
-
-
-
-const sclaeVariants ={
-  whileInView: {
-    scale: [0,1],
-    opacity: [0,1],
-    transition: {
-      duration: 1,
-      ease: 'easeInOut'
-    }
-  }
-}
-
+import {FaMouse} from 'react-icons/fa'
 
 
 const About = () => {
@@ -32,7 +18,7 @@ const About = () => {
 className='app__about-section'
 viewport={{once: true}}
 >
- 
+
    <Social/>
   <div className='app__about-description'>
   <motion.div
@@ -48,18 +34,12 @@ whileInView={ {x:[-200, 0], opacity: [0, 0.4, 1]}}
 transition={{duration:1,  ease: 'easeOut'}}
 viewport={{once: true}}
 className='app__about-text'>
-  
-
   <div>
- 
   <p>
   <span className='app__about-name' >Polina Katkova</span> 
-
 </p>
-
-
-
   </div>
+
 </motion.div>
 <motion.div
 whileInView={ { opacity: [0, 1]}}
@@ -68,7 +48,6 @@ viewport={{once: true}}
 >
 <p className= "text-position">Full-Stack Developer. Designer.</p>
 </motion.div>
-
 
 <motion.div 
 whileInView={ { opacity: [0, 1]}}
@@ -92,9 +71,8 @@ transition={{duration:1.5 , ease: 'easeOut'}}
 viewport={{once: true}}
 >
 
-
   <motion.div layout />
-  <img className='bg' src={images.me_bg2} alt="picture2"></img>
+  <img className='bg' src={images.me} alt="picture2"></img>
  
   <dev className="download-section">
 <a
